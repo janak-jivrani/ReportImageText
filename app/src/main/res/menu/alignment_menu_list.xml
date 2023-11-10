@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnuLeft"
+        android:title="Left"
+        android:icon="@drawable/ic_align_left" />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnuCenter"
+        android:title="Center"
+        android:icon="@drawable/ic_align_center" />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/mnuRight"
+        android:title="Right"
+        android:icon="@drawable/ic_align_right" />
+
+</menu>

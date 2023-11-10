@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/text_background"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:textColor="@color/black"
+        tools:text="hello"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_14sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibBold"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintStart_toStartOf="@+id/tvText"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/bold_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibUnderline"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintStart_toEndOf="@+id/ibBold"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/underline_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibAlignment"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintStart_toEndOf="@+id/ibUnderline"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/ic_align_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibAdd"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintEnd_toEndOf="@+id/tvText"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/ic_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

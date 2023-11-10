@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23901130266",
+    "project_id": "textrecogniationdemo",
+    "storage_bucket": "textrecogniationdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23901130266:android:552772234e4bb74a208ba3",
+        "android_client_info": {
+          "package_name": "com.example.imagetotext"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3Ha2WLByjt_Wa9XeC33Yq9n4-7GcAcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
